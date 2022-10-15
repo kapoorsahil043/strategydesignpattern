@@ -1,1 +1,14 @@
 
+public class Player {
+    public void play(/*String platform*/IPlatform platform){
+        /*if(platform.equals("Music")){
+            new Music().play();
+        } else if(platform.equals("Movie")){
+            new Movie().play();
+        }else{
+            System.out.println("No Match");
+        }*/
+
+        platform.play();
+    }
+}
