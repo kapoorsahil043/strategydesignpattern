@@ -1,1 +1,5 @@
-
+public class Movie implements  IPlatform{
+    public void play(){
+        System.out.println("My Movie");
+    }
+}
