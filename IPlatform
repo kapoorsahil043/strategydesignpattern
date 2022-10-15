@@ -1,1 +1,3 @@
-
+public interface IPlatform {
+    void play();
+}
