@@ -1,1 +1,11 @@
-
+public class PlayerClient {
+    public static void main(String[] args) {
+        Player player = new Player();
+        player.play(new Movie());
+        player.play(new Music());
+        
+        // So, in the future, new feature can be added easily. There will be no change in the High Level (Player) Class & low level (Video) Class.
+        // This design pattern follows Open/Close & DIP SOLID principles.
+        // player.play(new Video());
+    }
+}
